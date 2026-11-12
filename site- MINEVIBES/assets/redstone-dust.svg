@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title description">
+  <title id="title">Redstone dust item</title>
+  <desc id="description">A glowing pile of redstone dust and a branching redstone trail displayed on a violet voxel platform.</desc>
+  <defs>
+    <linearGradient id="backdrop" x2="0" y2="1">
+      <stop stop-color="#281043"/>
+      <stop offset="1" stop-color="#10091d"/>
+    </linearGradient>
+    <linearGradient id="dust" x2=".3" y2="1">
+      <stop stop-color="#ffb09b"/>
+      <stop offset=".34" stop-color="#ff553b"/>
+      <stop offset="1" stop-color="#a91645"/>
+    </linearGradient>
+    <linearGradient id="platform" x2="0" y2="1">
+      <stop stop-color="#54247d"/>
+      <stop offset="1" stop-color="#231237"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop stop-color="#a902ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#6a00ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-.8" y="-.8" width="2.6" height="2.6">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path fill="url(#backdrop)" d="M0 0h600v600H0z"/>
+  <circle cx="300" cy="292" r="255" fill="url(#aura)"/>
+  <g fill="#d9b3ff" opacity=".72">
+    <path d="M93 130h8v8h-8zM475 111h6v6h-6zM521 235h8v8h-8zM89 304h6v6h-6zM145 204h5v5h-5zM438 338h6v6h-6zM172 95h5v5h-5z"/>
+  </g>
+  <g fill="#a902ff" opacity=".9">
+    <path d="M119 253h12v12h-12zM480 173h10v10h-10zM453 390h14v14h-14zM126 390h8v8h-8z"/>
+  </g>
+  <ellipse cx="300" cy="474" rx="206" ry="48" fill="#6a00ff" opacity=".25"/>
+  <path fill="#261238" d="m96 440 204-95 204 95-204 99z"/>
+  <path fill="#48236a" d="m96 440 204 99v18L96 458z"/>
+  <path fill="#35194f" d="m504 440-204 99v18l204-99z"/>
+  <path fill="url(#platform)" d="m117 441 183-85 183 85-183 88z"/>
+  <path fill="#6a00ff" opacity=".65" d="m142 441 158-73 158 73-158 76z"/>
+  <path fill="#d9b3ff" opacity=".72" d="M207 462h186v4H207zM239 476h122v3H239z"/>
+  <g fill="none" stroke="#ff493c" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path stroke-width="10" d="m299 429-1-26-26-15 1-27-31-18m57 60 28-17 1-28 31-18m-61 25-31-18-1-25-26-15m58 58 31-18 25 1 17-17"/>
+  </g>
+  <g fill="#ff7253">
+    <path d="m266 354 8-5 8 5-8 5zM350 339l8-5 8 5-8 5zM236 339l8-5 8 5-8 5zM320 371l8-5 8 5-8 5zM265 387l8-5 8 5-8 5z"/>
+  </g>
+  <g filter="url(#glow)" stroke="#e83c42" stroke-linejoin="round" stroke-width="3">
+    <path fill="#9d1748" d="m238 398 17-32 19 9 10-29 20 13 12-29 19 18 20-7 12 27 26 9-12 25 12 16-28 14-23 23-25-11-25 9-21-19-24 2-17-20z"/>
+    <path fill="url(#dust)" d="m238 394 19-28 17 10 10-30 20 16 12-31 18 22 21-10 10 29 24 11-13 21 11 15-27 13-19 19-24-11-22 8-20-19-22 2-16-19z"/>
+  </g>
+  <g fill="#ffb09b">
+    <path d="m266 369 11-17 8 9-9 13zM305 361l9-22 8 15-7 18zM342 376l14-10 7 11-13 6zM255 392l13-8 5 9-13 7z"/>
+  </g>
+  <g fill="#ffdfc8" filter="url(#glow)">
+    <path d="m299 326 5-10 5 10-5 9zM230 349l4-8 5 8-5 7zM383 352l4-8 5 8-5 7zM213 408l4-8 5 8-5 7zM394 412l4-8 5 8-5 7z"/>
+  </g>
+  <g fill="#ff553b" opacity=".8">
+    <path d="M174 411h8v8h-8zM420 385h7v7h-7zM193 320h6v6h-6zM412 306h8v8h-8z"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1535" height="290" viewBox="0 0 1535 290" role="img" aria-labelledby="title">
+  <title id="title">MineVibes brand color palette</title>
+  <image href="identidade%20-%20minevibes.jpeg" x="-25" y="-570" width="1600" height="900" />
+  <rect x="506" y="8" width="508" height="66" rx="12" fill="#10091d" />
+  <text x="760" y="52" fill="#fff" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="40" font-weight="900" text-anchor="middle">COLOR PALETTE</text>
+  <rect x="0" y="194" width="1535" height="84" fill="#10091d" />
+  <g fill="#fff" font-family="Trebuchet MS, Segoe UI, sans-serif" text-anchor="middle">
+    <g font-size="18" font-weight="700">
+      <text x="177" y="221">#6A00FF</text>
+      <text x="380" y="221">#A902FF</text>
+      <text x="576" y="221">#D9B3FF</text>
+      <text x="773" y="221">#FFD700</text>
+      <text x="973" y="221">#1A1A1A</text>
+      <text x="1170" y="221">#6B6B6B</text>
+      <text x="1372" y="221">#FFFFFF</text>
+    </g>
+    <g font-size="17" font-weight="700">
+      <text x="177" y="252">Primary Purple</text>
+      <text x="380" y="252">Violet</text>
+      <text x="576" y="252">Lilac</text>
+      <text x="773" y="252">Gold</text>
+      <text x="973" y="252">Black</text>
+      <text x="1170" y="252">Gray</text>
+      <text x="1372" y="252">White</text>
+    </g>
+  </g>
+</svg>

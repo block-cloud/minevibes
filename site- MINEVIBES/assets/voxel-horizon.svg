@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="492" viewBox="0 0 1200 492" role="img" aria-labelledby="title description">
+  <title id="title">Purple voxel horizon</title>
+  <desc id="description">A glowing sunset over a blocky mountain range, a quiet lake, and a tiny portal on the horizon.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#10091d"/>
+      <stop offset=".48" stop-color="#35105d"/>
+      <stop offset="1" stop-color="#a902ff"/>
+    </linearGradient>
+    <radialGradient id="sun-glow">
+      <stop stop-color="#ffd700" stop-opacity=".85"/>
+      <stop offset=".35" stop-color="#a902ff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#6a00ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water" x2="0" y2="1">
+      <stop stop-color="#6c2da3"/>
+      <stop offset="1" stop-color="#10091d"/>
+    </linearGradient>
+    <linearGradient id="portal" x2="0" y2="1">
+      <stop stop-color="#f0b5ff"/>
+      <stop offset=".5" stop-color="#a902ff"/>
+      <stop offset="1" stop-color="#5a16d8"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v492H0z"/>
+  <circle cx="850" cy="228" r="205" fill="url(#sun-glow)"/>
+  <path fill="#f3c7ff" opacity=".92" d="M836 150h32v16h16v16h16v48h-16v16h-16v16h-32v-16h-16v-16h-16v-48h16v-16h16z"/>
+  <g fill="#fff" opacity=".75">
+    <path d="M95 82h4v4h-4zM232 154h5v5h-5zM420 65h4v4h-4zM1000 91h5v5h-5zM1090 186h4v4h-4zM710 85h4v4h-4zM551 182h4v4h-4zM114 220h4v4h-4z"/>
+  </g>
+  <g fill="#d9b3ff" opacity=".65">
+    <path d="M144 112h22v8h-22zM916 115h30v8h-30zM1042 136h17v7h-17zM348 104h19v7h-19z"/>
+  </g>
+  <path fill="#25103e" d="M0 293h102v-36h53v-42h45v38h37v-54h53v-36h57v22h32v57h52v-33h49v-45h53v-30h51v37h35v35h43v-19h49v-39h51v-34h47v38h38v54h42v-19h52v-29h63v91h53v-34h39v-28h41v50h40v-39h31v122H0z"/>
+  <path fill="#35105d" d="M0 345h75v-39h57v23h42v-67h51v-29h44v55h55v-31h44v-49h59v35h37v52h62v-35h47v-21h56v47h49v-38h55v-48h50v31h44v53h58v-35h39v-30h56v52h59v-30h48v43h43v113H0z"/>
+  <path fill="#53217b" d="M0 378h105v-28h53v29h49v-49h49v-22h40v36h53v-23h50v-44h53v26h48v44h54v-35h45v-20h52v31h63v-42h47v34h58v-26h53v40h51v-32h63v37h58v-22h54v28h49v154H0z"/>
+  <path fill="#35105d" d="M0 412h164v-24h52v33h54v-22h64v32h49v-28h51v-32h52v26h66v30h56v-30h54v-22h49v32h66v-27h55v38h58v-24h71v28h58v-19h51v89H0z"/>
+  <path fill="url(#water)" d="M0 401h1200v91H0z"/>
+  <path fill="#d9b3ff" opacity=".48" d="M595 412h303v5H595zM680 428h185v4H680zM536 445h339v4H536zM729 463h247v3H729zM104 429h238v4H104zM238 454h309v4H238z"/>
+  <path fill="#ffd700" opacity=".6" d="M675 405h178v3H675zM752 437h123v3H752z"/>
+  <g>
+    <path fill="#180d2a" d="M850 318h9v-9h9v-9h38v9h9v9h9v87h-74z"/>
+    <path fill="url(#portal)" d="M866 321h42v67h-42z"/>
+    <path fill="#d9b3ff" opacity=".7" d="M874 327h5v55h-5zM889 324h3v58h-3z"/>
+    <path fill="#a902ff" d="M845 389h83v9h-83zM839 398h95v8h-95z"/>
+    <path fill="#ffd700" d="M835 406h104v4H835z"/>
+  </g>
+  <g fill="#6a00ff" opacity=".85">
+    <path d="M48 401h12v12H48zM360 411h9v9h-9zM1010 398h14v14h-14zM1105 420h9v9h-9zM282 435h11v11h-11z"/>
+  </g>
+  <path fill="#a902ff" opacity=".28" d="M0 386h1200v5H0z"/>
+</svg>
